@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart | Flash Shop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="heading d-flex align-center fixed top-0 left-0">
+        <div class="heading-title-icon d-flex align-center">
+            <h1 class="heading-title">
+                <a class="link" href="/">E-Commerce Website</a>
+            </h1>
+        </div>
+        </div><br><br>
+        <nav class="navigation">
+            <ul class="list-non-bullet d-flex align-center gap">
+                <li class="list-item-inline">
+                    <a href="/" class="link cursor">
+                        <span class="nav-icon material-icons-outlined">
+                            favorite_border
+                            </span>
+                    </a>
+                </li>
+                <li class="list-item-inline">
+                    <a href="/" class="link cursor">
+                        <span class="nav-icon material-icons-outlined">
+                            shopping_cart
+                            </span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main">
+        <h2 class="heading-2 d-flex justify-center">Your Cart</h2>
+    </main class="d-flex gap justify-center">
+        <div class="product-page d-flex wrap gap" id="cart"></div>
+        <div class="final-price direction-column gap shadow padding-all-16">
+            <div>Price Details</div>
+            <div class="d-flex align-center justify-space-between">
+                <span class="item-count"></span>
+                <span class="product-price"></span>
+                <span> Rs.50000</span>
+            </div>
+            <div class="d-flex align-center justify-space-between">
+                <span>Discount</span>
+                <span>Rs.1500</span>
+            </div>
+            <div class="d-flex align-center justify-space-between">
+                <span>Delivery Charge</span>
+                <span>Rs.150</span>
+
+            </div>
+            <div class="d-flex align-center justify-space-between">
+                <span>Total Amount</span>
+                <span>Rs.3500</span>
+            </div>
+        
+        <div>You will save Rs.1000 on this order</div>
+        </div><br>
+        <button class="button btn-primary cursor">Place Order</button>
+        </main>
+        
+    </main>
+    <script type="module" src="./cart.js"></script>
+</body>
+</html>
